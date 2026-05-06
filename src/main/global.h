@@ -17,6 +17,7 @@ enum rotationDirection
 struct cell
 {
 	Color c;
+	const static int SIZE = 30;
 	int x;
 	int y;
 };

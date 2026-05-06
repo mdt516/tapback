@@ -27,6 +27,7 @@ class piece
 {
 public:
 	piece();
+	piece(pieceType t);
 	~piece();
 
 	// setters
@@ -50,6 +51,7 @@ private:
 
 	pieceType type;
 	pieceOrientation orientation;
+	Color pieceColor;
 
 	int x;
 	int y;

@@ -1,3 +1,5 @@
+#include <raylib.h>
+
 #include "../main/global.h"
 #include "../classes/board.h"
 #include "../main/game.h"
@@ -16,7 +18,9 @@ int main()
 	{
 		BeginDrawing();
 
-		ClearBackground(BLUE);
+		p.draw();
+
+		ClearBackground(GRAY);
 
 		EndDrawing();
 	}
