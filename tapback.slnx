@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="tapback.vcxproj" />
+  <Project Path="tapback.vcxproj" Id="6f9477b4-912d-4e31-92b0-98b352c68f62" />
 </Solution>

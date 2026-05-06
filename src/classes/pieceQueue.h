@@ -1,10 +1,10 @@
 #pragma once
-#include <raylib.h>
 #include <queue>
+#include "../main/global.h"
 
-#include "piece.h"
+#include "../classes/piece.h"
 
-class queue
+class pieceQueue
 {
 public:
 	piece& getTop();
