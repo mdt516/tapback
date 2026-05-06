@@ -3,7 +3,7 @@
 
 piece::piece() : x(SCREEN_HEIGHT / 2), y(SCREEN_WIDTH / 2), orientation(up)
 {
-	int randType = GetRandomValue(1, 7);
+	int randType = GetRandomValue(0, 6);
 	this->type = pieceType(randType);
 	initializeShape(type);
 }
