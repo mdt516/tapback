@@ -30,6 +30,8 @@ public:
 	piece(pieceType t);
 	~piece();
 
+	void initializeShape(pieceType t);
+
 	// setters
 	void setType(pieceType t) { this->type = t; };
 	void setOrientation(pieceOrientation o) { this->orientation = o; };
@@ -55,7 +57,5 @@ private:
 
 	int x;
 	int y;
-
-	void initializeShape(pieceType t);
 };
 

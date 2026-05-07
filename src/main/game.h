@@ -4,7 +4,8 @@
 class game
 {
 public:
-	void initGame();
+	game();
+	~game();
 
 private:
 	bool gameOver = false;

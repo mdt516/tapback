@@ -5,7 +5,13 @@
 
 class bag
 {
+public:
+	bag();
+	~bag();
+
+	void generate();
+
 private:
-	piece bag[7];
+	std::vector<piece> contents;
 };
 

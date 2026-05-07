@@ -141,6 +141,7 @@
     <ClCompile Include="src\classes\bag.cpp" />
     <ClCompile Include="src\classes\board.cpp" />
     <ClCompile Include="src\classes\piece.cpp" />
+    <ClCompile Include="src\classes\pieceQueue.cpp" />
     <ClCompile Include="src\classes\queue.cpp" />
     <ClCompile Include="src\main\game.cpp" />
     <ClCompile Include="src\main\main.cpp" />

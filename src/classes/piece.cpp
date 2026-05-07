@@ -1,14 +1,14 @@
 #include "../classes/piece.h"
 
 
-piece::piece() : x(SCREEN_HEIGHT / 2), y(SCREEN_WIDTH / 2), orientation(up)
+piece::piece() :
+	x(SCREEN_HEIGHT / 2), y(SCREEN_WIDTH / 2), orientation(up)
 {
-	int randType = GetRandomValue(0, 6);
-	this->type = pieceType(randType);
-	initializeShape(type);
+
 }
 
-piece::piece(pieceType t) : x(SCREEN_HEIGHT / 2), y(SCREEN_WIDTH / 2), orientation(up)
+piece::piece(pieceType t) :
+	x(SCREEN_HEIGHT / 2), y(SCREEN_WIDTH / 2), orientation(up)
 {
 	initializeShape(t);
 }
@@ -44,7 +44,7 @@ void piece::draw()
 		}
 	}
 
-	// not sure how to center this?
+	// TODO not sure how to center this?
 }
 
 void piece::initializeShape(pieceType t)

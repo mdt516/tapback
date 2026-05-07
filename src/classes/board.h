@@ -1,16 +1,19 @@
 #pragma once
-#include "../main/global.h"
+#include <vector>
 
+#include "../main/global.h"
 #include "../classes/piece.h"
+#include "../classes/pieceQueue.h"
 
 class board
 {
 public:
+	void loadNextPiece(pieceQueue& q);
 	void draw();
 	void writePiece(piece& p);
 	void clearLine(int rowIndex);
 
 private:
-	cell grid[10][40]; // extra 20 rows as buffer zone
+	std::vector<std::vector<cell>> grid;
 };
 
